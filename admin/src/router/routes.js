@@ -1,4 +1,4 @@
-import About from '@/views/About'
+import UserControl from '@/views/UserControl'
 import Layout from '@/layout'
 
 const routes = [
@@ -8,8 +8,8 @@ const routes = [
     component: Layout
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/user',
+    name: 'User',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -18,8 +18,8 @@ const routes = [
     menu: false,
     children: [
       {
-        path: '/about/demo',
-        component: About
+        path: '/user/control',
+        component: UserControl
       }
     ]
   }
