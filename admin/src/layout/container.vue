@@ -5,12 +5,8 @@
 </template>
 
 <script>
-import LeftBar from './leftbar'
 
 export default {
-  name: 'cantainer',
-  components: {
-    LeftBar
-  }
+  name: 'cantainer'
 }
 </script>
